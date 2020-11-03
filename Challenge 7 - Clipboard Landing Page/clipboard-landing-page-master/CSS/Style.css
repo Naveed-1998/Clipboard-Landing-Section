@@ -1,0 +1,557 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1440px;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    opacity: 0.5;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Homepage */
+.homepage {
+    background-image: url('../images/bg-header-desktop.png') no-repeat center
+    center/cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.homepage img {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 25px;
+    padding-top: 50px;
+}
+
+.download-buttons-1 {
+    margin-right: 75px;
+}
+
+.homepage p {
+    padding: 0 50px;
+}
+
+/* First Description Paragraph */
+.description {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.description p {
+    padding: 0 400px;
+    line-height: 1.75rem;
+}
+
+/* Computer Image and 3 feature boxes */
+.features {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.features img {
+    width: 50%;
+}
+
+.feature-boxes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.feature-boxes p {
+    width: 400px;
+}
+
+/* Second Description Paragraph */
+.section-1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.section-1 p, .section-1 h3 {
+    width: 50%;
+}
+
+/* Tablet Image */
+.section-2 {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Third Description Paragraph */
+.section-3 {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features-section-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* Blacklist Box */
+.features-section-box-1 {
+    text-align: center;
+    width: 33.3%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features-section-box-1 p {
+    padding: 0 20px;
+}
+
+/* Text Snippet Box */
+.features-section-box-2 {
+    width: 33.4%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features-section-box-2 p {
+    padding: 0 20px;
+}
+
+/* Preview Box */
+.features-section-box-3 {
+    width: 33.3%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features-section-box-3 p {
+    padding: 0 50px;
+}
+
+/* Brand Logos */
+.logos {
+    display: flex;
+    flex-direction: row;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    width: 100%;
+}
+
+.google {
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+.ibm {
+    margin-right: 100px;
+}
+
+.microsoft {
+    margin-right: 100px;
+}
+
+.hp {
+    margin-right: 100px;
+}
+
+.vector-graphics {
+    margin-right: 50px;
+}
+
+/* Conclusion/Second Button Section */
+.conclusion {
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+.conclusion p {
+    width: 600px;
+    margin-left: 400px;
+}
+
+.download-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-1 {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 5px;
+    margin-top: 20px;
+    background: hsl(171, 66%, 44%);
+    color: white;
+}
+
+.button-2 {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-top: 20px;
+    background: hsl(233, 100%, 69%);
+    color: white;
+}
+
+.button-1:hover, 
+.button-2:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    background: lightgray;
+    width: 100%;
+}
+
+.logo-2 {
+    width: 50px;
+    height: 50px;
+    margin-top: 12.5px;
+    margin-left: 100px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    opacity: 0.7;
+}
+
+.links-set-1 {
+    margin: 5px 40px;
+}
+
+.contact-us {
+    margin-top: 10px;
+}
+
+.links-set-2 {
+    margin: 5px 40px;
+}
+
+.press-kit {
+    margin-top: 10px;
+}
+
+.links-set-3 {
+    margin: 5px 40px;
+}
+
+.social-media {
+    margin: 25px 10px 10px 400px;
+}
+
+.fb {
+    margin: 0 5px;
+}
+
+.twitter {
+    margin: 0 5px;
+}
+
+
+/* Media Queries */
+@media(max-width:375px) {
+    body {
+        max-width: 375px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #container {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homepage {
+        width: 350px;
+    }
+
+    .description {
+        margin: 0;
+        padding: 0;
+        width: 350px;
+    }
+
+    .description p {
+        margin: 0;
+        padding: 10px 5px 10px 30px;
+        width: 300px;
+    }
+
+    .features {
+        width: 300px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .features img {
+        width: 300px;
+        height: 200px;
+        padding-top: 20px;
+    }
+
+    .feature-boxes {
+        margin: 0;
+        padding: 20px 0 0 0;
+        text-align: center;
+        width: 375px;
+    }
+
+    .feature-boxes h3,
+    .feature-boxes p {
+        width: 300px;
+    }
+
+    .section-1 {
+        width: 375px;
+        margin: 0;
+        padding: 0 0 0 50px;
+    }
+
+    .section-1 p,
+    .section-1 h3 {
+        width: 300px;
+    }
+
+    .section-2 {
+        width: 375px;
+    }
+
+    .section-2 img {
+        width: 300px;
+        padding-left: 50px;
+    }
+
+    .section-3 {
+        width: 375px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-3 h3,
+    .section-3 p {
+        width: 300px;
+        padding-left: 50px;
+    }
+
+    .features-section-2 {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+
+    .features-section-box-1 {
+        width: 300px;
+        padding-left: 50px;
+        padding-bottom: 25px;
+    }
+
+    .features-section-box-2 {
+        width: 300px;
+        padding-left: 50px;
+        padding-bottom: 25px;
+    }
+
+    .features-section-box-3 {
+        width: 300px;
+        padding-left: 50px;
+        padding-bottom: 5px;
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        padding-top: 40px;
+    }
+
+    .first-logo {
+        width: 375px;
+        padding-bottom: 10px;
+    }
+
+    .google {
+        width: 300px;
+        height: 150px;
+    }
+
+    .second-logo {
+        width: 375px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+
+    .ibm {
+        width: 300px;
+        height: 150px;
+    }
+
+    .third-logo {
+        width: 375px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+
+    .microsoft {
+        width: 300px;
+        height: 150px;
+    }
+
+    .fourth-logo {
+        width: 375px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+
+    .hp {
+        width: 300px;
+        height: 150px;
+    }
+
+    .fifth-logo {
+        width: 375px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+
+    .vector-graphics {
+        width: 300px;
+        height: 150px;
+    }
+
+    .conclusion {
+        width: 375px;
+        padding-top: 10px;
+    }
+
+    .conclusion h3,
+    .conclusion p {
+        width: 300px;
+        padding: 0;
+        padding-left: 30px;
+        margin: 0;
+    }
+
+    .conclusion h3 {
+        padding-bottom: 20px;
+    }
+
+    .conclusion p {
+        padding-bottom: 10px;
+    }
+
+    .download-buttons {
+        display: flex;
+        flex-direction: column;
+        padding-left: 75px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer img {
+        margin: 0;
+        padding: 20px 0 0 60px;
+    }
+
+    .links-set-1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .link-1 {
+        padding-top: 30px;
+    }
+
+    .link-2 {
+        padding-bottom: 10px;
+    }
+
+    .links-set-2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .links-set-3 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .link-4 {
+        padding-bottom: 10px;
+    }
+
+    .social-media {
+        margin: 20px 0 0 0;
+        padding: 0 0 0 0 10px;
+    }
+
+    .fb {
+        margin: 0;
+        padding: 0 0 0 10px;
+    }
+
+    .twitter {
+        margin: 0;
+        padding: 10px 0 0 20px;
+    }
+
+    .instagram {
+        margin: 0;
+        padding: 0 0 0 20px;
+    }
+}
